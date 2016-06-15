@@ -1,0 +1,14 @@
+#linkedin-rotate {
+   width: 100px;
+   height: 200px;
+}
+#linkedin-rotate div {
+    position:absolute;
+    z-index: 0;
+}
+#linkedin-rotate div.previous {
+    z-index: 1;
+}
+#linkedin-rotate div.current {
+    z-index: 2;
+}
